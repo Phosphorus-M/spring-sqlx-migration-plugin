@@ -1,5 +1,7 @@
 # Spring Sqlx Migration Plugin
 
+[![crates.io](https://img.shields.io/crates/v/spring-sqlx-migration-plugin?logo=rust)](https://crates.io/crates/spring-sqlx-migration-plugin)
+
 It's just a plugin to execute the migrations of Sqlx into SpringRS
 
 Key Features:
