@@ -3,7 +3,7 @@ use spring::async_trait;
 use spring::config::{ConfigRegistry, Configurable};
 use spring::tracing::{error, info};
 use spring::{app::AppBuilder, plugin::Plugin};
-use spring_sqlx::ConnectPool;
+use spring_sqlx::{ConnectPool, SqlxPlugin};
 use sqlx::migrate::Migrator;
 
 pub struct SqlxMigrationPlugin;
@@ -41,6 +41,10 @@ impl Plugin for SqlxMigrationPlugin {
             error!("Ha ocurrido un error! {error}");
         }
 
+    }
+
+    fn dependencies(&self) -> Vec<&str> {
+        vec![std::any::type_name::<SqlxPlugin>()]
     }
 }
 
