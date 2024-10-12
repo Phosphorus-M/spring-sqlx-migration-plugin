@@ -2,6 +2,12 @@
 
 It's just a plugin to execute the migrations of Sqlx into SpringRS
 
+Key Features:
+- Seamless integration with SpringRS
+- Automatically runs SQLx migrations on application startup
+- Supports various databases compatible with SQLx
+- Configurable and easy to use
+
 Just add into the app.toml the initial config for this plugin:
 
 ```toml

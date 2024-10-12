@@ -1,7 +1,14 @@
 [package]
 name = "spring-sqlx-migration-plugin"
-version = "0.1.0"
+description = "A plugin to run SQLx migrations automatically within the SpringRS framework"
+version = "0.2.0"
 edition = "2021"
+license = "MIT"
+keywords = ["plugin", "spring-rs", "web", "axum", "sqlx"]
+categories = ["web-programming"]
+repository = "https://github.com/Phosphorus-M/spring-sqlx-migration-plugin"
+authors = ["Phosphorus-M"]
+homepage = "https://rustlang-es.org"
 
 [dependencies]
 spring = { version = "0.2.2" }
