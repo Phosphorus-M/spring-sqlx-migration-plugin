@@ -12,7 +12,7 @@ pub struct SqlxMigrationPlugin;
 impl Plugin for SqlxMigrationPlugin {
     async fn build(&self, app: &mut AppBuilder) {
         let Ok(SqlxMigrationConfig { migration_folder }) = app.get_config::<SqlxMigrationConfig>() else {
-            error!("SqlxMigrationPlugin require the SqlxConfig");
+            error!("SqlxMigrationPlugin require the migration_folder config");
             return;
         };
 
