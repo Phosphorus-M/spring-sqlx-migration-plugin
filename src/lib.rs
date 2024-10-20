@@ -38,7 +38,7 @@ impl Plugin for SqlxMigrationPlugin {
         });
 
         if let Err(error) = migrator.run(&pool).await {
-            error!("Ha ocurrido un error! {error}");
+            error!("An error has occurred! {error}");
         }
 
     }
