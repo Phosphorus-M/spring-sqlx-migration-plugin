@@ -1400,9 +1400,9 @@ dependencies = [
 
 [[package]]
 name = "spring"
-version = "0.2.6"
+version = "0.2.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "369dc086f5df4dff4a1a82103ec1ecaba166918c0a645a9d772be8c378ab333e"
+checksum = "58371a821a3524ff2074b1e35c2247c92a4cdb255227f70f7486ba08033fc8b9"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1410,6 +1410,8 @@ dependencies = [
  "dotenvy",
  "inventory",
  "log",
+ "nu-ansi-term",
+ "once_cell",
  "schemars",
  "serde",
  "serde-toml-merge",
