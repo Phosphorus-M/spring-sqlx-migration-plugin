@@ -1,7 +1,7 @@
 [package]
 name = "spring-sqlx-migration-plugin"
 description = "A plugin to run SQLx migrations automatically within the SpringRS framework"
-version = "0.2.3"
+version = "0.2.4"
 edition = "2021"
 license = "MIT"
 keywords = ["plugin", "spring-rs", "web", "axum", "sqlx"]
