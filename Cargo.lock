@@ -1400,9 +1400,9 @@ dependencies = [
 
 [[package]]
 name = "spring"
-version = "0.2.9"
+version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "58371a821a3524ff2074b1e35c2247c92a4cdb255227f70f7486ba08033fc8b9"
+checksum = "54a7724c025adddf274814c0b6f0eb0be65164665c507bf568fd6e113ee369d2"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1426,9 +1426,9 @@ dependencies = [
 
 [[package]]
 name = "spring-macros"
-version = "0.2.0"
+version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0b2213a738a420f1fbe9756ae4911c6181d3fd4d1858fc8115f0b0e944663751"
+checksum = "92e64c53771bab9f2c12ca6b7468cff28adccd2b45ce9d15291774b5ed21721c"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1437,9 +1437,9 @@ dependencies = [
 
 [[package]]
 name = "spring-sqlx"
-version = "0.2.3"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "71fc6dff792f83c5382ab129a1543640c8cc4deaa8efd6638878ffd98376ab37"
+checksum = "241d7c40293158316962d7a116972a7b37b2f25999b42bcb7f9455f247453098"
 dependencies = [
  "anyhow",
  "schemars",
@@ -1451,7 +1451,7 @@ dependencies = [
 
 [[package]]
 name = "spring-sqlx-migration-plugin"
-version = "0.2.4"
+version = "0.3.0"
 dependencies = [
  "serde",
  "spring",

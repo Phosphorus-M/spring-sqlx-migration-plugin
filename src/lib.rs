@@ -1,6 +1,7 @@
 use serde::Deserialize;
 use spring::async_trait;
 use spring::config::{ConfigRegistry, Configurable};
+use spring::plugin::ComponentRegistry;
 use spring::tracing::{error, info};
 use spring::{app::AppBuilder, plugin::Plugin};
 use spring_sqlx::{ConnectPool, SqlxPlugin};
