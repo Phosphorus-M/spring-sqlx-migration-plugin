@@ -1401,8 +1401,7 @@ dependencies = [
 [[package]]
 name = "spring"
 version = "0.3.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "54a7724c025adddf274814c0b6f0eb0be65164665c507bf568fd6e113ee369d2"
+source = "git+https://github.com/Phosphorus-M/spring-rs.git?branch=axum-0.8#593a46175d3850640a153a2fe415e0466896123b"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1427,8 +1426,7 @@ dependencies = [
 [[package]]
 name = "spring-macros"
 version = "0.3.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "92e64c53771bab9f2c12ca6b7468cff28adccd2b45ce9d15291774b5ed21721c"
+source = "git+https://github.com/Phosphorus-M/spring-rs.git?branch=axum-0.8#593a46175d3850640a153a2fe415e0466896123b"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1438,8 +1436,7 @@ dependencies = [
 [[package]]
 name = "spring-sqlx"
 version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "241d7c40293158316962d7a116972a7b37b2f25999b42bcb7f9455f247453098"
+source = "git+https://github.com/Phosphorus-M/spring-rs.git?branch=axum-0.8#593a46175d3850640a153a2fe415e0466896123b"
 dependencies = [
  "anyhow",
  "schemars",

@@ -11,7 +11,7 @@ authors = ["Phosphorus-M"]
 homepage = "https://rustlang-es.org"
 
 [dependencies]
-spring = { version = "0.3.1" }
+spring = { git = "https://github.com/Phosphorus-M/spring-rs.git", branch = "axum-0.8" }
 serde = { version = "1", features = ["derive"] }
-spring-sqlx = { version = "0.3.0", features = ["postgres"] }
+spring-sqlx = { git = "https://github.com/Phosphorus-M/spring-rs.git", branch = "axum-0.8", features = ["postgres"] }
 sqlx = { version = "0.8" }
